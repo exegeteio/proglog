@@ -1,6 +1,9 @@
 package server
 
-import "sync"
+import (
+	"fmt"
+	"sync"
+)
 
 type Log struct {
 	mu      sync.Mutex
